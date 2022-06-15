@@ -1,0 +1,10 @@
+*.zip
+*.p12
+WebGL Build /
+Library/
+Logs/
+Packages/
+ProjectSettings/
+Temp/
+UserSettings/
+*.meta

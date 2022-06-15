@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="io.teak.sdk.unity">
+    <application>
+        <!-- This is added by the Unity package for 'com.google.firebase.messaging'
+               which brings in 'com.google.firebase:firebase-messaging-unity' from the file
+               'firebase-messaging-unity-*.srcaar'.
+               It needs to be removed in order for Teak to work properly -->
+        <service android:name="com.google.firebase.messaging.cpp.ListenerService"
+                 tools:node="remove" />
+    </application>
+</manifest>
